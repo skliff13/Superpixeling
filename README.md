@@ -9,7 +9,11 @@ This includes:
 
 ![Alt text](assets/highlighting.png)
 
-### Datasets
+### Requirements
+
+Python 3.6+ with the neccessary libs (see [requirements.txt](requirements.txt)).
+
+### Test Datasets
 
 Two test datasets of 2D biomedical images are available for [download](https://drive.google.com/open?id=1c6gdvI0ipQWkkn30s3LIhB56blN4lf-i).
 
