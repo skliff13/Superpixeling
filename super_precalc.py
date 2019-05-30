@@ -1,13 +1,8 @@
-import os
-import json
-import imageio
 import numpy as np
 import pandas as pd
-from skimage import io, img_as_float
 from skimage.segmentation import slic
 from skimage.morphology import binary_dilation, binary_erosion, binary_closing, binary_opening
 from scipy.ndimage import sobel
-
 
 def super_precalc2d(im, super_sz, super_reg):
     feature_names = ('intensityMean', 'intensitySD', 'intensityEntropy', 'insideGradient', 'borderGradient',
