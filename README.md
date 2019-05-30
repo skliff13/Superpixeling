@@ -21,3 +21,10 @@ Examples of healthy ("norm") and pathological ("dmg") CT and histology images ar
 ### Scripts
 
 The scripts can be run one-by-one from [run_a_precalculate.py](run_a_precalculate.py) to [run_f_highlight_regions.py](run_f_highlight_regions.py) or by launching the [run_pipeline.py](run_pipeline.py) script.
+
+### References
+
+[1] Liauchuk, V. Superpixel co-occurrence for quantitative description  of biomedical images / V. Liauchuk, V. Kovalev // Proc. of the 13-th Int. conference on Pattern Recognition and Information Processing (PRIP’2016). - October, 3-5, Minsk, Belarus, 2016. - Vol. 1. - P. 145-147
+
+[2] A method for highlighting lung tuberculosis lesions in CT images using superpixel approach / V. Liauchuk [et al] // Proc. 30th Int. Congress and Exhibition on Computer Assisted Radiology and Surgery (CARS-2016).  – Heidelberg, Germany, 2016. – Vol. 11. – P. 277-278
+
