@@ -30,9 +30,6 @@ The scripts can be run one-by-one from [run_a_precalculate.py](run_a_precalculat
 
 ### References
 
-[1] Liauchuk, V. Superpixel co-occurrence for quantitative description  of biomedical images / V. Liauchuk, V. Kovalev // Proc. of the 13-th Int. conference on Pattern Recognition and Information Processing (PRIP’2016). - October, 3-5, Minsk, Belarus, 2016. - Vol. 1. - P. 145-147
-(URL: http://www.elib.bsu.by/bitstream/123456789/158760/1/Liauchuk_Kovalev.pdf)
+[1] Liauchuk, V. [Superpixel co-occurrence for quantitative description  of biomedical images](http://www.elib.bsu.by/bitstream/123456789/158760/1/Liauchuk_Kovalev.pdf) / V. Liauchuk, V. Kovalev // Proc. of the 13-th Int. conference on Pattern Recognition and Information Processing (PRIP’2016). - October, 3-5, Minsk, Belarus, 2016. - Vol. 1. - P. 145-147.
 
-[2] A method for highlighting lung tuberculosis lesions in CT images using superpixel approach / V. Liauchuk [et al] // Proc. 30th Int. Congress and Exhibition on Computer Assisted Radiology and Surgery (CARS-2016).  – Heidelberg, Germany, 2016. – Vol. 11. – P. 277-278. 
-(URL: https://www.researchgate.net/publication/333485161_A_method_for_highlighting_lung_tuberculosis_lesions_in_CT_images_using_superpixel_approach)
-
+[2] [A method for highlighting lung tuberculosis lesions in CT images using superpixel approach](https://www.researchgate.net/publication/333485161_A_method_for_highlighting_lung_tuberculosis_lesions_in_CT_images_using_superpixel_approach) / V. Liauchuk [et al] // Proc. 30th Int. Congress and Exhibition on Computer Assisted Radiology and Surgery (CARS-2016).  – Heidelberg, Germany, 2016. – Vol. 11. – P. 277-278. 
