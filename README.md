@@ -13,3 +13,7 @@ Two datasets of 2D biomedical images are available for [download](https://drive.
 
 * A set of 2D regions of Computed Tomography images, `128x128` in size, 270 regions in total, 92 of them containing tuberculosis lesions.
 * A set of 2D grayscale histology images of ovary, `256x256` in size, 200 images in total, 100 marked as pathological and 100 as healthy tissue.
+
+Examples of healthy ("norm") and pathological ("dmg") CT and histology images are shown below.
+
+![Alt text](assets/data_samples.png)
