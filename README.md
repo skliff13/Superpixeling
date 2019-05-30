@@ -7,6 +7,8 @@ This includes:
 * Extraction of image descriptors based on co-occurrence matrices of superpixel classes
 * Highlighting key regions on the images which differentiate images of two classes.
 
+![Alt text](assets/highlighting.png)
+
 ### Datasets
 
 Two test datasets of 2D biomedical images are available for [download](https://drive.google.com/open?id=1c6gdvI0ipQWkkn30s3LIhB56blN4lf-i).
