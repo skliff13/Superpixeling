@@ -1,0 +1,8 @@
+numpy
+json
+pandas
+imageio
+matplotlib
+scipy
+scikit-image
+scikit-learn
