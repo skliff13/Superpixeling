@@ -4,6 +4,7 @@ from skimage.segmentation import slic
 from skimage.morphology import binary_dilation, binary_erosion, binary_closing, binary_opening
 from scipy.ndimage import sobel
 
+
 def super_precalc2d(im, super_sz, super_reg):
     feature_names = ('intensityMean', 'intensitySD', 'intensityEntropy', 'insideGradient', 'borderGradient',
                      'compactness', 'squareness', 'positiveSpectrum', 'negativeSpectrum')
