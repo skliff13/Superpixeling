@@ -15,7 +15,8 @@ Python 3.6+ with the neccessary libs (see [requirements.txt](requirements.txt)).
 
 ### Test Datasets
 
-Two test datasets of 2D biomedical images are available for [download](https://drive.google.com/open?id=1c6gdvI0ipQWkkn30s3LIhB56blN4lf-i). Extract the datasets into `data` directory prior to running the scripts.
+Two test datasets of 2D biomedical images are available for [download](https://drive.google.com/open?id=1wo3_om9Hqq97ojl8hfv7GXTC1DwbI8-W).
+Extract the datasets into `data` directory prior to running the scripts.
 
 * A set of 2D regions of Computed Tomography images, `128x128` in size, 270 regions in total, 92 of them containing tuberculosis lesions.
 * A set of 2D grayscale histology images of ovary, `256x256` in size, 200 images in total, 100 marked as pathological and 100 as healthy tissue.
@@ -26,7 +27,7 @@ Examples of healthy ("norm") and pathological ("dmg") CT and histology images ar
 
 ### Scripts
 
-The scripts can be run one-by-one from [run_a_precalculate.py](run_a_precalculate.py) to [run_f_highlight_regions.py](run_f_highlight_regions.py) or by launching the [run_pipeline.py](run_pipeline.py) script.
+The scripts can be run one-by-one from [run01_precalculate.py](run01_precalculate.py) to [run07_highlight_regions.py](run07_highlight_regions.py) or by launching the [run_pipeline.py](run_pipeline.py) script.
 
 ### References
 

@@ -42,8 +42,9 @@ def build_heat_map(dictionary_size, im, sp_map, pairs, scores, sp_classes):
 
 
 def calc_scores(data_dir, dictionary_size, sp_str):
-    path = os.path.join(data_dir, '_cls.txt')
-    y = pd.read_csv(path, header=None).get_values()
+    path = os.path.join(data_dir, '_idx.txt')
+    y = pd.read_csv(path, header=None)[1].get_values()
+    y = y[..., np.newaxis]
 
     spcms_path = os.path.join(data_dir, 'SPdata', 'descs_spcm_%s_%i.txt' % (sp_str, dictionary_size))
     x = pd.read_csv(spcms_path, header=None).get_values()

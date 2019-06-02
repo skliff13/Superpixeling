@@ -1,8 +1,4 @@
 {
-  "SuperParameters": [
-    "8_0.3"
-  ],
-  "DictionarySizes": [
-    16
-  ]
+  "SuperParameters": ["8_0.3", "16_0.3"],
+  "DictionarySizes": [8, 16, 32]
 }
