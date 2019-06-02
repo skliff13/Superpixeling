@@ -53,7 +53,7 @@ def calc_scores(data_dir, dictionary_size, sp_str):
     for j in range(x.shape[1]):
         col = x[:, j:j + 1]
         if np.std(col) > 0:
-            r = pearsonr(col, y)[0][0]
+            r, _ = pearsonr(col.flatten(), y.flatten())
             scores[j] = np.sign(r) * r ** 2
 
     return scores

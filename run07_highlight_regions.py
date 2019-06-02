@@ -25,6 +25,8 @@ def build_heat_maps(data_dir, config_path):
 
 
 def build_heat_maps_for_combination(data_dir, sp_str, dictionary_size):
+    print('%s_%i' % (sp_str, dictionary_size))
+
     path = os.path.join(data_dir, '_idx.txt')
     case_ids = list(pd.read_csv(path, header=None)[0].get_values())
 
@@ -70,10 +72,9 @@ def load_case_data(case_dir, dictionary_size, sp_str):
 
 def main():
     data_dir = 'data/ct2d'
-    sp_str = '8_0.3'
-    dictionary_size = 16
+    config_path = 'config0.json'
 
-    build_heat_maps(data_dir, sp_str, dictionary_size)
+    build_heat_maps(data_dir, config_path)
 
 
 if __name__ == '__main__':

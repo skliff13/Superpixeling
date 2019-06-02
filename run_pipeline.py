@@ -8,7 +8,7 @@ from run07_highlight_regions import build_heat_maps
 
 
 def main():
-    data_dir = 'data/ovary'
+    data_dir = 'data/ct2d'
     config_path = 'config0.json'
 
     precalculate_dataset(data_dir, config_path)
